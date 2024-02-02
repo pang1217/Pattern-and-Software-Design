@@ -1,37 +1,41 @@
-<mxfile host="Electron" modified="2024-01-08T16:20:30.238Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.15 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="zcUlacyXIc0hfep53NT7" version="22.1.15" type="device">
-  <diagram name="หน้า-1" id="5f10thKQesMWU2rIkd4J">
-    <mxGraphModel dx="1363" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="Electron" modified="2024-02-02T02:41:12.808Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.15 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="YXuePXHwcdmGm84AHwv7" version="22.1.15" type="device" pages="2">
+  <diagram id="iej0CKYwxv6MS8rslRcO" name="หน้า-2">
+    <mxGraphModel dx="1887" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Director&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- builder&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Director(builder)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ make&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;DesktopBuilder&lt;/span&gt;(builder)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ makeLaptopBuilder(builder)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="70" y="150" width="190" height="110" as="geometry" />
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Director&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- builder&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Director(builder)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;+ makeBookWithISBN&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;(builder)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ makeBook(builder)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="154.38" width="220" height="111.25" as="geometry" />
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ComputerBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildCPU()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildGPU()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildRam()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildStorage()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="400" y="140" width="190" height="130" as="geometry" />
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BookBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildTitle(title : String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildAuthor(author : String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildISBN(ISBN : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DesktopBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- desktop : Desktop&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildCPU()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildGPU()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildRam()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildStorage()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getResult() : Desktop&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="310" y="350" width="160" height="160" as="geometry" />
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FictionBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fiction : Book&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildTitle(title : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildAuthor(author : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildISBN(ISBN : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getResult() : Book&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LaptopBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- laptop : Laptop&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildCPU()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildGPU()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildRam()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildStorage()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getResult() : Laptop&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="350" width="160" height="160" as="geometry" />
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NonFictionBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nonFiction : Book&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildTitle(title : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildAuthor(author : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildISBN(ISBN : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getResult() : Book&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="505" y="350" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-5" value="Desktop" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="335" y="550" width="110" height="50" as="geometry" />
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-5" value="Book" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yAhZJsbEg_dYhO9ST6Fd-3" target="yAhZJsbEg_dYhO9ST6Fd-5">
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1VZ6ML7O5D7_3BgJBovQ-3" target="1VZ6ML7O5D7_3BgJBovQ-5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="390" y="490" as="sourcePoint" />
             <mxPoint x="540" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="540" />
+              <mxPoint x="495" y="540" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="yAhZJsbEg_dYhO9ST6Fd-2">
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="1VZ6ML7O5D7_3BgJBovQ-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="495" y="310" as="sourcePoint" />
             <mxPoint x="490" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yAhZJsbEg_dYhO9ST6Fd-3" target="yAhZJsbEg_dYhO9ST6Fd-4">
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1VZ6ML7O5D7_3BgJBovQ-3" target="1VZ6ML7O5D7_3BgJBovQ-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="430" as="sourcePoint" />
             <mxPoint x="480" y="380" as="targetPoint" />
@@ -41,19 +45,115 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yAhZJsbEg_dYhO9ST6Fd-1" target="yAhZJsbEg_dYhO9ST6Fd-2">
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1VZ6ML7O5D7_3BgJBovQ-1" target="1VZ6ML7O5D7_3BgJBovQ-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="380" y="400" as="sourcePoint" />
             <mxPoint x="410" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-11" value="Laptop" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="545" y="550" width="110" height="50" as="geometry" />
+        <mxCell id="1VZ6ML7O5D7_3BgJBovQ-11" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1VZ6ML7O5D7_3BgJBovQ-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="604.58" y="490" as="sourcePoint" />
+            <mxPoint x="490" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="yAhZJsbEg_dYhO9ST6Fd-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yAhZJsbEg_dYhO9ST6Fd-4" target="yAhZJsbEg_dYhO9ST6Fd-11">
+        <mxCell id="zXk_zbzxIdX6pftKwjwH-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=234.99999999999997;exitDy=33;exitPerimeter=0;" edge="1" parent="1" source="zXk_zbzxIdX6pftKwjwH-4" target="1VZ6ML7O5D7_3BgJBovQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="230" as="sourcePoint" />
+            <mxPoint x="210" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zXk_zbzxIdX6pftKwjwH-3" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;builder.buildTitle(&quot;Title&quot;)&lt;/div&gt;&lt;div&gt;builder.buildAuthor(&quot;author&quot;)&lt;/div&gt;&lt;div&gt;return builder.product&amp;nbsp;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="220" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zXk_zbzxIdX6pftKwjwH-4" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;builder.buildTitle(&quot;Title with ISBN book&quot;)&lt;/div&gt;&lt;div&gt;builder.buildAuthor(&quot;author&quot;)&lt;/div&gt;&lt;div&gt;builder.buildISBN(&quot;X&quot; * 16)&lt;/div&gt;&lt;div&gt;return builder.product&amp;nbsp;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="130" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IrdSPXGRHCMtldse8nx-2" value="" style="endArrow=oval;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=234.99999999999997;exitDy=33;exitPerimeter=0;startArrow=none;startFill=0;endFill=1;entryX=0.005;entryY=0.859;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zXk_zbzxIdX6pftKwjwH-3" target="1VZ6ML7O5D7_3BgJBovQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="240" as="sourcePoint" />
+            <mxPoint x="95" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wKAM2UIu6Co4IWNn_CFH" name="หน้า-3">
+    <mxGraphModel dx="1736" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Director&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- builder&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Director(builder)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;+ makeGeneralComputer&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;(builder)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ makeGamingComputer(builder)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="146.25" width="190" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ComputerBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildCPU(String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildGPU(String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildRam(String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buildStorage(String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LaptopBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- laptop : Laptop&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ buildCPU(String)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildGPU(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildRam(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildStorage(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getResult() : Laptop&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PCBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pc : PersonalComputer&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ reset()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildCPU(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildGPU(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildRam(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ buildStorage(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getResult() : PersonalComputer&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="505" y="350" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-5" value="Laptop" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335" y="560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XnC7RhZaXIsLQxlgBjt7-3" target="XnC7RhZaXIsLQxlgBjt7-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="540" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XnC7RhZaXIsLQxlgBjt7-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="495" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XnC7RhZaXIsLQxlgBjt7-3" target="XnC7RhZaXIsLQxlgBjt7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="430" as="sourcePoint" />
+            <mxPoint x="480" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="310" />
+              <mxPoint x="600" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XnC7RhZaXIsLQxlgBjt7-1" target="XnC7RhZaXIsLQxlgBjt7-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="410" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-10" value="PersonalComputer" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="545" y="560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XnC7RhZaXIsLQxlgBjt7-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XnC7RhZaXIsLQxlgBjt7-4" target="XnC7RhZaXIsLQxlgBjt7-10">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="604.58" y="490" as="sourcePoint" />
             <mxPoint x="604.58" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOaL79hWFoWCPrndndgd-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=-0.007;entryY=0.681;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12" y="230" as="sourcePoint" />
+            <mxPoint x="70" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOaL79hWFoWCPrndndgd-2" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildCPU(cpu : String)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildDisplay(display : String)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildRam(ram : String)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildStorage(storage : String)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;return builder.product&amp;nbsp;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="163.75" width="297" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zOaL79hWFoWCPrndndgd-3" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildCPU(cpu : String)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildCPU(cpu : String)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildDisplay(display : String)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildRam(ram : String)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;builder.buildStorage(storage : String)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;return builder.product&amp;nbsp;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" vertex="1" parent="1">
+          <mxGeometry x="45" y="270" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zOaL79hWFoWCPrndndgd-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=117;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zOaL79hWFoWCPrndndgd-3" target="XnC7RhZaXIsLQxlgBjt7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="22" y="240" as="sourcePoint" />
+            <mxPoint x="80" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

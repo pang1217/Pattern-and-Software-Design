@@ -1,13 +1,13 @@
-class SingletonMeta(type):
-    _instances = {}
-
-    def __call__(cls, *args, **kwargs):
-        if cls not in cls._instances:
-            instance = super().__call__(*args, **kwargs)
-            cls._instances[cls] = instance
-        return cls._instances[cls]
+class Pointer:
+    __instance = None
     
-class Pointer(metaclass = SingletonMeta):
+    @classmethod
+    #  cls ; It stands for "class" and is used to refer to the class itself within the method
+    def getInstance(self):
+        if self.__instance is None:
+            self.__instance = self()
+        return self.__instance
+    
     def move (self):
         return "Pointer move."
     
@@ -17,9 +17,9 @@ class Pointer(metaclass = SingletonMeta):
     def rightClick (self):
         return "Pointer right click."
     
+    
 if __name__ == "__main__":
     # The client code.
-
     pointer1 = Pointer()
     pointer2 = Pointer()
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     print(pointer2.rightClick())
     
     print('=' * 20)
-    if id(pointer1) == id(pointer2):
+    if pointer1.getInstance() == pointer2.getInstance():
         print("Singleton works, both variables contain the same instance.")
     else:
         print("Singleton failed, variables contain different instances.")
