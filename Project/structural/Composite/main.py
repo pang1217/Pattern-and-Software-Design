@@ -11,10 +11,10 @@ class FileSystemComponent (ABC) :
     def parent (self, parent : FileSystemComponent) :
         self._parent = parent
         
-    def add (self, parent : FileSystemComponent) -> None :
+    def addComponent (self, parent : FileSystemComponent) -> None :
         pass
     
-    def remove (self, parent : FileSystemComponent) -> None :
+    def removeComponent (self, parent : FileSystemComponent) -> None :
         pass
     
     def is_composite(self) -> bool:
@@ -34,37 +34,80 @@ class File (FileSystemComponent) :
 class Folder (FileSystemComponent) :
     def __init__(self, name) -> None:
         self.__name = name
-        self.__folder = []
+        self.__folder : List[FileSystemComponent] = []
     
     # Add component
-    def add(self, file) :
-        self.__folder.append(file)
+    def addComponent(self, component) :
+        self.__folder.append(component)
         
     # remove component
-    def remove (self, file):
-        self.components.remove(file)
+    def removeComponent (self, component):
+        self.__folder.remove(component)
         
+    def is_composite(self) -> bool:
+        return True
+    
     def display(self):
         print(f"Folder : {self.__name}")
         for file in self.__folder :
             file.display()
     
+def client1 (fileComponent : FileSystemComponent) :
+    fileComponent.display()
+    
+def client2 (f1 : FileSystemComponent, f2 : FileSystemComponent) :
+    if f1.is_composite() :
+        f1.addComponent(f2)
+    f1.display()
+    
 if __name__ == "__main__" :
-    file1 = File("Document.txt")
-    file2 = File("Image.jpg")
-
-    file1.display()
-    file2.display()
+    file_swift1 = File("TheBasics.swift")
+    client1(file_swift1)
     
-    folder1 = Folder("Document")
-    folder1.add(file1)
-    folder1.add(file2)
-    folder1.display()
+    folder1 = Folder("Swift_HomeWork")
     
-    folder2 = Folder("Pictures")
-    folder1.add(folder2)
-
+    folder2 = Folder("textFiles")
+    file_text2 = File("Collection_Types.txt")
+    file_text3 = File("Functions.txt")
+    file_text4 = File("Closures.txt")
+    #  add files to folder
+    folder2.addComponent(file_text2)
+    folder2.addComponent(file_text3)
+    folder2.addComponent(file_text4)
     
-    folder2.display()
-    folder2.add(file2)
-    folder1.display()
+    folder3 = Folder("swift_files")
+    file_swift2 = File("Collection_Types.txt")
+    file_swift3 = File("Functions.txt")
+    folder3.addComponent(file_swift2)
+    folder3.addComponent(file_swift3)
+    
+    file_swift4 = File("Closures.txt")
+    
+    print('-' * 50)
+    client1(folder3)
+    print('-' * 50)
+    client2(folder3, file_swift1)
+    print('-' * 50)
+    client2(folder1, folder2)
+    print('-' * 50)
+    client2(folder1, folder3)
+    
+    print("+" * 20)
+    floder9 = Folder("Floder 9")
+    floder9.addComponent(file_swift1)
+    floder8 = Folder("Floder 8")
+    floder8.addComponent(file_swift2)
+    floder7 = Folder("Floder 7")
+    floder7.addComponent(file_swift3)
+    
+    floder9.addComponent(floder8)
+    # print("+" * 20)
+    floder8.addComponent(floder7)
+    print("+" * 20)
+    client1(floder9)
+    
+    print("+" * 20)
+    client1(floder8)
+    
+    
+    

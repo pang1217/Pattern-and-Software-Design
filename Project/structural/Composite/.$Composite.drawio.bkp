@@ -1,9 +1,43 @@
-<mxfile host="Electron" modified="2024-01-08T16:20:57.921Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.15 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="m3xV0DQaQ5PHkOYCJRL_" version="22.1.15" type="device">
+<mxfile host="Electron" modified="2024-01-11T10:04:14.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.15 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6m4oDDWwrq8pXFAtFAIX" version="22.1.15" type="device">
   <diagram name="หน้า-1" id="I6PycXUQDi1QdwxJ-G9L">
-    <mxGraphModel dx="954" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2295" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Llzj7FM5L0M1MST8ArlZ-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FileSystemComponent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ display() : void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="70" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Llzj7FM5L0M1MST8ArlZ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;File&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name : String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ display() : void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-206" y="240" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Llzj7FM5L0M1MST8ArlZ-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Folder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- folder : FileSystemComponent[]&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addComponent ( component : FileSystemComponent)&lt;/p&gt;&amp;nbsp;+ removeComponent ( component : FileSystemComponent)&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ display() : void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="84" y="240" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Llzj7FM5L0M1MST8ArlZ-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Llzj7FM5L0M1MST8ArlZ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="19" y="210" as="sourcePoint" />
+            <mxPoint x="94" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Llzj7FM5L0M1MST8ArlZ-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Llzj7FM5L0M1MST8ArlZ-2" target="Llzj7FM5L0M1MST8ArlZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-6" y="400" as="sourcePoint" />
+            <mxPoint x="44" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-126" y="210" />
+              <mxPoint x="167" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Llzj7FM5L0M1MST8ArlZ-6" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=open;startFill=0;startSize=17;" edge="1" parent="1" source="Llzj7FM5L0M1MST8ArlZ-1" target="Llzj7FM5L0M1MST8ArlZ-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-66" y="370" as="sourcePoint" />
+            <mxPoint x="94" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="249" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
