@@ -63,9 +63,9 @@ if __name__ == "__main__":
     text_message2.receive("Hi there!", "1234567890")
 
     # ------------------------------------
-
+    print('='*20)
     multimedia_message1 = MultimediaMessage(email_platform)
     multimedia_message2 = MultimediaMessage(sms_platform)
 
-    multimedia_message1.send("Check out this image.", "user@example.com")
+    multimedia_message1.send("Check out this website.", "user@example.com")
     multimedia_message2.receive("New video available.", "9876543210")

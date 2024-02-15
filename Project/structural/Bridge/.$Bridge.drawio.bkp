@@ -1,63 +1,115 @@
-<mxfile host="Electron" modified="2024-01-09T04:55:03.446Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.15 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="0U8K-sgpWYpDSyhNNTty" version="22.1.15" type="device">
+<mxfile host="Electron" modified="2024-02-08T02:55:19.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.15 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="5nabH5TsCyxmMbl3BlmN" version="22.1.15" type="device">
   <diagram name="หน้า-1" id="zBTn55RXcZ7_Sr7jETyV">
-    <mxGraphModel dx="1423" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1694" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MessagingPlatform&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sendMessage(message : String , recipient : String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ receiveMessage(message : String , recipient : String)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="610" y="180" width="300" height="110" as="geometry" />
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;i style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;MessagingPlatform&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ sendMessage(message : String , recipient : String)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ receiveMessage(message : String , recipient : String)&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="300" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Message&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- MessagePlatform (messagePlatform : MessagingPlatform)&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Message (messagePlatform : MessagingPlatform)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ send (message : String, recipient : String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ receive (message : String, recipient : String)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="180" width="330" height="110" as="geometry" />
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;Message&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;- messagingPlatform : MessagingPlatform&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ Message (messagePlatform : MessagingPlatform)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ send (message : String, recipient : String)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ receive (message : String, recipient : String)&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="140" width="280" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SMSService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ sendMessage(message : String , recipient : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ receiveMessage(message : String , recipient : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="430" y="390" width="310" height="90" as="geometry" />
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;SMSService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ sendMessage(message : String , recipient : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ receiveMessage(message : String , recipient : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="390" width="230" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EmailMessagingPlatform&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ sendMessage(message : String , recipient : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ receiveMessage(message : String , recipient : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="780" y="390" width="310" height="90" as="geometry" />
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;EmailMessagingPlatform&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ sendMessage(message : String , recipient : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ receiveMessage(message : String , recipient : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="390" width="220" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MultiMediaMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ send (message : String, recipient : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ receive (message : String, recipient : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="390" width="310" height="90" as="geometry" />
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;MultiMediaMessage&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ send (message : String, recipient : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ receive (message : String, recipient : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="390" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TextMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ send (message : String, recipient : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ receive (message : String, recipient : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="70" y="390" width="310" height="90" as="geometry" />
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;TextMessage&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 12px;&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ send (message : String, recipient : String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;+ receive (message : String, recipient : String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="100" y="390" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-7" value="" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="-O-b2FFnpwcaCm44UzfL-2">
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-7" value="" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" parent="1" target="-O-b2FFnpwcaCm44UzfL-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="55" y="340" as="sourcePoint" />
+            <mxPoint x="80" y="340" as="sourcePoint" />
             <mxPoint x="330" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O-b2FFnpwcaCm44UzfL-5" target="-O-b2FFnpwcaCm44UzfL-6">
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="-O-b2FFnpwcaCm44UzfL-5" target="-O-b2FFnpwcaCm44UzfL-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="420" as="sourcePoint" />
-            <mxPoint x="270" y="370" as="targetPoint" />
+            <mxPoint x="-80" y="390" as="sourcePoint" />
+            <mxPoint x="260" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-115" y="340" />
+              <mxPoint x="-35" y="340" />
+              <mxPoint x="105" y="340" />
               <mxPoint x="225" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-9" value="" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="-O-b2FFnpwcaCm44UzfL-1">
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-9" value="" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=12;" parent="1" target="-O-b2FFnpwcaCm44UzfL-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="760" y="340" as="sourcePoint" />
+            <mxPoint x="630" y="340" as="sourcePoint" />
             <mxPoint x="760" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="-O-b2FFnpwcaCm44UzfL-4">
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-O-b2FFnpwcaCm44UzfL-3" target="-O-b2FFnpwcaCm44UzfL-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="390" as="sourcePoint" />
             <mxPoint x="930" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="590" y="340" />
-              <mxPoint x="935" y="340" />
+              <mxPoint x="485" y="340" />
+              <mxPoint x="770" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-O-b2FFnpwcaCm44UzfL-11" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=open;startFill=0;startSize=20;" edge="1" parent="1" source="-O-b2FFnpwcaCm44UzfL-1" target="-O-b2FFnpwcaCm44UzfL-2">
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-11" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=open;startFill=0;startSize=20;fontSize=12;" parent="1" source="-O-b2FFnpwcaCm44UzfL-1" target="-O-b2FFnpwcaCm44UzfL-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="400" as="sourcePoint" />
             <mxPoint x="500" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=1;startSize=3;jumpStyle=none;endArrow=none;endFill=0;anchorPointDirection=0;bendable=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;backgroundOutline=0;snapToPoint=1;flowAnimation=0;strokeColor=#C3C3C3;dashed=1;shadow=0;strokeWidth=1.2;exitX=0.996;exitY=0.489;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="-O-b2FFnpwcaCm44UzfL-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-321" y="482.5" as="sourcePoint" />
+            <mxPoint x="-270" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-13" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;messagingPlatform.sendMessage(message, recipient)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="435" width="316" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-14" value="&lt;font color=&quot;#494949&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;messagingPlatform.receiveMessage(message, sender)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-213" y="500" width="313" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=1;startSize=3;jumpStyle=none;endArrow=none;endFill=0;anchorPointDirection=0;bendable=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;backgroundOutline=0;snapToPoint=1;flowAnimation=0;strokeColor=#C3C3C3;dashed=1;shadow=0;strokeWidth=1.2;exitX=0.201;exitY=-0.051;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;" parent="1" source="-O-b2FFnpwcaCm44UzfL-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-305" y="460" as="sourcePoint" />
+            <mxPoint x="-150" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=1;startSize=3;jumpStyle=none;endArrow=none;endFill=0;anchorPointDirection=0;bendable=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;backgroundOutline=0;snapToPoint=1;flowAnimation=0;strokeColor=#C3C3C3;dashed=1;shadow=0;strokeWidth=1.2;exitX=0.996;exitY=0.489;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;" parent="1" source="-O-b2FFnpwcaCm44UzfL-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-171" y="272.5" as="sourcePoint" />
+            <mxPoint x="-60" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-17" value="&lt;font color=&quot;#494949&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;messagingPlatform = MessagingPlatform&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="160" width="266" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=1;startSize=3;jumpStyle=none;endArrow=none;endFill=0;anchorPointDirection=0;bendable=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;backgroundOutline=0;snapToPoint=1;flowAnimation=0;strokeColor=#C3C3C3;dashed=1;shadow=0;strokeWidth=1.2;exitX=0.471;exitY=-0.041;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;" parent="1" source="-O-b2FFnpwcaCm44UzfL-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1109" y="552.5" as="sourcePoint" />
+            <mxPoint x="760" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-19" value="&lt;font color=&quot;#494949&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;print( f&#39;Receiving Email : &quot;{message}&quot; from {sender} &#39;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="592" y="540" width="356" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-20" value="&lt;font color=&quot;#494949&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;print( f&#39;Sending Email : &quot;{message}&quot; from {sender} &#39;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="900" y="440" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-O-b2FFnpwcaCm44UzfL-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=1;startSize=3;jumpStyle=none;endArrow=none;endFill=0;anchorPointDirection=0;bendable=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;backgroundOutline=0;snapToPoint=1;flowAnimation=0;strokeColor=#C3C3C3;dashed=1;shadow=0;strokeWidth=1.2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;entryPerimeter=0;" parent="1" target="-O-b2FFnpwcaCm44UzfL-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="460" as="sourcePoint" />
+            <mxPoint x="945" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lHPuquuaQmoERypyI2ra-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=1;startSize=3;jumpStyle=none;endArrow=none;endFill=0;anchorPointDirection=0;bendable=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;backgroundOutline=0;snapToPoint=1;flowAnimation=0;strokeColor=#C3C3C3;dashed=1;shadow=0;strokeWidth=1.2;exitX=0;exitY=0;exitDx=316.00000000000006;exitDy=23;exitPerimeter=0;fontSize=12;" edge="1" parent="1" source="-O-b2FFnpwcaCm44UzfL-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-46" y="510" as="sourcePoint" />
+            <mxPoint x="-160" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
