@@ -3,8 +3,8 @@ class IShop:
     def shipping(self, price):
         pass
 
-# ProxyDelivery class
-class ProxyDelivery(IShop):
+# ProxyShop class
+class ProxyShop(IShop):
     def __init__(self, shop):
         self.shop = shop
 
@@ -17,7 +17,7 @@ class ProxyDelivery(IShop):
             result += f"100\nTotal Price : {price + 100}"
         return result
 
-# Delivery class
+# Shop class
 class Shop(IShop):
     def shipping(self, price):
         return f"Price : {price}\n"
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     print(rShop.shipping(100))
 
     print()
-    pShop = ProxyDelivery(Shop())
+    pShop = ProxyShop(Shop())
     print(pShop.shipping(100))
 
     print()

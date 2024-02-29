@@ -1,38 +1,46 @@
-# Target interface
-class MediaPlayer:
-    def play(self, audio_type, file_name):
+# target interface
+class MediaPlayer :
+    def play(self, file) :
         pass
-
-# Adaptee interface 
-class AdvancedMediaPlayer:
-    def play_video(self, file_name):
-        pass
-
-# Adaptee class 1 
-class MP4Player(AdvancedMediaPlayer):
-    def play_video(self, file_name):
-        print("Playing MP4 video file:", file_name)
-
-# Adaptee class 2
-class MKVPlayer(AdvancedMediaPlayer):
-    def play_video(self, file_name):
-        print("Playing MKV video file:", file_name)
-
-# Adapter
-class MediaPlayerAdapter(MediaPlayer):
-    def __init__(self, advanced_media_player):
-        self.advanced_media_player = advanced_media_player
-
-    def play(self, audio_type, file_name):
-        if audio_type.lower() == "mp4" or audio_type.lower() == "mkv":
-            self.advanced_media_player.play_video(file_name)
-        else:
-            print("Invalid media type:", audio_type)
-
-# Client code
-if __name__ == "__main__":
-    mp4_player = MediaPlayerAdapter(MP4Player())
-    mp4_player.play("mp4", "movie.mp4")
-
-    mkv_player = MediaPlayerAdapter(MKVPlayer())
-    mkv_player.play("mkv", "video.mkv")
+    
+# mp4 adapter
+class MP4Adapter (MediaPlayer):
+    def __init__(self, file) -> None:
+        self.mp4_player = file
+        
+    def play(self, file) :
+        self.mp4_player.play_mp4(file)
+        
+class MP4Adaptee :
+    def play_mp4 (self, file) :
+        print(f'Playing mp4 file : {file}')
+        
+class MPVAdapter (MediaPlayer):
+    def __init__(self, file) -> None:
+        self.mpv_player = file
+        
+    def play(self, file) :
+        self.mpv_player.play_mpv(file)
+        
+# mpv adapter
+class MPVAdaptee :
+    def play_mpv (self, file) :
+        print(f'Playing mpv file : {file}')
+        
+if __name__ == '__main__' :
+    mp4_player = MP4Adaptee()
+    mpv_player = MPVAdaptee()
+    
+    # adapter
+    mp4_adapter = MP4Adapter(mp4_player)
+    mpv_adapter = MPVAdapter(mpv_player)
+    
+    mp4_adapter.play("file.mp4")
+    mpv_adapter.play("file.mpv")
+    
+    
+    # adaptees = [MP4Adaptee(), MPVAdaptee()]
+    # adapters = [MediaAdapter(adaptee) for adaptee in adaptees]
+    # for adapter in adapters:
+    #     adapter.play("file.mp4")
+    
