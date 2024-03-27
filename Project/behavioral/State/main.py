@@ -1,49 +1,49 @@
 class TaskState:
-    def maskAsPending(self):
+    def performPending(self):
         pass
 
-    def maskAsInProgress(self):
+    def startInProgress(self):
         pass
 
-    def maskAsCompleted(self):
+    def finishTask(self):
         pass
 
 class PendingState(TaskState):
-    def maskAsPending(self):
+    def performPending(self):
         print("Task is already pending")
         # return PendingState()
 
-    def maskAsInProgress(self):
+    def startInProgress(self):
         print("Marking task as 'In Progress'")
         return InProgressState()
 
-    def maskAsCompleted(self):
+    def finishTask(self):
         print("Marking task as 'Completed'")
         return CompletedState()
 
 class InProgressState(TaskState):
-    def maskAsPending(self):
+    def performPending(self):
         print("Marking task as 'Pending'")
         return PendingState()
 
-    def maskAsInProgress(self):
+    def startInProgress(self):
         print("Task is already in progress")
         # return InProgressState()
 
-    def maskAsCompleted(self):
+    def finishTask(self):
         print("Marking task as 'Completed'")
         return CompletedState()
 
 class CompletedState(TaskState):
-    def maskAsPending(self):
+    def performPending(self):
         print("Cannot revert 'Completed' task back to 'Pending'")
         # return CompletedState()
 
-    def maskAsInProgress(self):
+    def startInProgress(self):
         print("Cannot modify 'Completed' task")
         # return CompletedState()
 
-    def maskAsCompleted(self):
+    def finishTask(self):
         print("Task is already completed")
         # return CompletedState()
 
@@ -56,19 +56,33 @@ class Task :
         if s != None :
             self.state = s
         
-    def maskAsPending(self):
-        self.changeState(self.state.maskAsPending())
+    def performPending(self):
+        self.changeState(self.state.performPending())
         
-    def maskAsInProgress(self):
-        self.changeState(self.state.maskAsInProgress())
+    def startInProgress(self):
+        self.changeState(self.state.startInProgress())
         
-    def maskAsCompleted(self):
-        self.changeState(self.state.maskAsCompleted())
+    def finishTask(self):
+        self.changeState(self.state.finishTask())
         
 if __name__ == "__main__":
-    task = Task(PendingState())
-    task.maskAsPending()
-    task.maskAsInProgress()
-    task.maskAsCompleted()
-    task.maskAsPending()
-    task.maskAsInProgress()
+    task1 = Task(PendingState())
+    task1.performPending()
+    task1.startInProgress()
+    task1.finishTask()
+    task1.performPending()
+    task1.startInProgress()
+    
+    print()
+    task2 = Task(InProgressState())
+    task2.performPending()
+    task2.startInProgress()
+    task2.finishTask()
+    task2.performPending()
+    task2.startInProgress()
+    
+    print()
+    task3 = Task(CompletedState())
+    task3.performPending()
+    task3.startInProgress()
+    task3.finishTask()
