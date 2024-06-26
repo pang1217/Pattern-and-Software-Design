@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-03-27T07:35:39.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="uJrbQs6t98IdxKyK-xMk" version="24.1.0" type="device" pages="2">
+<mxfile host="Electron" modified="2024-06-26T08:24:53.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="zu91hO5uy8gsXRyU2XoN" version="24.2.5" type="device" pages="2">
   <diagram name="หน้า-1" id="x7JUmXFRvFEp16cXIT6r">
-    <mxGraphModel dx="1004" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2021" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,28 +29,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uhzcnJ_RiDDrXmpNPpfs-3" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;thingToDo.append(buyAFight())&lt;/div&gt;&lt;div&gt;thingToDo.append(takePlane())&lt;/div&gt;&lt;div&gt;thingToDo.append(enjoyVacation())&lt;/div&gt;&lt;div&gt;thingToDo.append(hook1())&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;thingToDo.append(buyGift())&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" vertex="1" parent="1">
+        <mxCell id="uhzcnJ_RiDDrXmpNPpfs-3" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;thingToDo.append(buyAFight())&lt;/div&gt;&lt;div&gt;thingToDo.append(takePlane())&lt;/div&gt;&lt;div&gt;thingToDo.append(enjoyVacation())&lt;/div&gt;&lt;div&gt;thingToDo.append(hook1())&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;thingToDo.append(buyGift())&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" parent="1" vertex="1">
           <mxGeometry x="4" y="80" width="235" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uhzcnJ_RiDDrXmpNPpfs-4" value="" style="endArrow=oval;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=234.99999999999997;exitDy=33;exitPerimeter=0;startArrow=none;startFill=0;endFill=1;entryX=0.005;entryY=0.859;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uhzcnJ_RiDDrXmpNPpfs-3">
+        <mxCell id="uhzcnJ_RiDDrXmpNPpfs-4" value="" style="endArrow=oval;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=234.99999999999997;exitDy=33;exitPerimeter=0;startArrow=none;startFill=0;endFill=1;entryX=0.005;entryY=0.859;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uhzcnJ_RiDDrXmpNPpfs-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="229" y="160" as="sourcePoint" />
             <mxPoint x="280" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uhzcnJ_RiDDrXmpNPpfs-5" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;for msg in thingToDo :&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(msg)&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" vertex="1" parent="1">
+        <mxCell id="uhzcnJ_RiDDrXmpNPpfs-5" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;for msg in thingToDo :&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; print(msg)&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" parent="1" vertex="1">
           <mxGeometry y="210" width="235" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uhzcnJ_RiDDrXmpNPpfs-6" value="" style="endArrow=oval;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=234.99999999999997;exitDy=33;exitPerimeter=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1" source="uhzcnJ_RiDDrXmpNPpfs-5">
+        <mxCell id="uhzcnJ_RiDDrXmpNPpfs-6" value="" style="endArrow=oval;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=234.99999999999997;exitDy=33;exitPerimeter=0;startArrow=none;startFill=0;endFill=1;" parent="1" source="uhzcnJ_RiDDrXmpNPpfs-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="225" y="290" as="sourcePoint" />
             <mxPoint x="280" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f5z8iqJdQ_4adM73ARMl-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MountainJourney&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buyGift()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ hook1()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ enjoyVacation()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="f5z8iqJdQ_4adM73ARMl-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MountainJourney&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ buyGift()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ hook1()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ enjoyVacation()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="350" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="f5z8iqJdQ_4adM73ARMl-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+        <mxCell id="f5z8iqJdQ_4adM73ARMl-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="350" as="sourcePoint" />
             <mxPoint x="720" y="350" as="targetPoint" />
@@ -60,11 +60,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="r_Q8nGjJNaZ864W1TO98-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="TKNVKpSUtDfbJ2M54wkg" name="หน้า-2">
-    <mxGraphModel dx="615" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,10 +96,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ktQtg-EJ2jy98Dn0cX5N-1" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;mixIngredients()&lt;/div&gt;&lt;div&gt;bake()&lt;/div&gt;&lt;div&gt;slice()&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" vertex="1" parent="1">
+        <mxCell id="ktQtg-EJ2jy98Dn0cX5N-1" value="&lt;font color=&quot;#494949&quot;&gt;&lt;div&gt;mixIngredients()&lt;/div&gt;&lt;div&gt;bake()&lt;/div&gt;&lt;div&gt;slice()&lt;/div&gt;&lt;/font&gt;" style="shape=note;size=6;align=left;spacingLeft=10;html=1;whiteSpace=wrap;strokeWidth=1.5;strokeColor=#C3C3C3;gradientColor=none;fillColor=#EBEBEB;" parent="1" vertex="1">
           <mxGeometry x="100" y="140" width="139" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ktQtg-EJ2jy98Dn0cX5N-2" value="" style="endArrow=oval;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=139;exitDy=28;exitPerimeter=0;startArrow=none;startFill=0;endFill=1;entryX=0.005;entryY=0.859;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ktQtg-EJ2jy98Dn0cX5N-1">
+        <mxCell id="ktQtg-EJ2jy98Dn0cX5N-2" value="" style="endArrow=oval;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=139;exitDy=28;exitPerimeter=0;startArrow=none;startFill=0;endFill=1;entryX=0.005;entryY=0.859;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ktQtg-EJ2jy98Dn0cX5N-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="229" y="190" as="sourcePoint" />
             <mxPoint x="280" y="200" as="targetPoint" />
